@@ -9,6 +9,3 @@ branches:
     - master
 
 script: npm test
-
-notifications:
-  email: false
