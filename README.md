@@ -75,7 +75,7 @@ Examples:
 ```js
  var MyClient = require('idol-client')('MyRegisteredAPIkey');
  // or
- var MyClient = require('IDOLclient')({
+ var MyClient = require('idol-client')({
      APIkey: 'MyRegisteredAPIkey'
  });
  // or in the browser
