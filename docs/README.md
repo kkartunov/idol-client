@@ -1,4 +1,5 @@
-# IDOLclient [![Build Status](https://travis-ci.org/ColorfullyMe/idol-client.svg)](https://travis-ci.org/ColorfullyMe/idol-client)
+# IDOLclient [![Build Status](https://travis-ci.org/ColorfullyMe/idol-client.svg)](https://travis-ci.org/ColorfullyMe/idol-client) [![NPM](https://nodei.co/npm/idol-client.png)](https://nodei.co/npm/idol-client/)
+
 Javascript client for working with the HP's IDOL OnDemand API from Node.js and the browser. Supports all endpoints with theirs parameters, can auto do polling of async tasks, fires events and more...
 
 Made and maintained by <a href="https://github.com/ColorfullyMe" target="_blank">@Colorfully</a> for free. It is open source as software should one day be!:)

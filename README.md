@@ -1,4 +1,5 @@
-# IDOLclient [![Build Status](https://travis-ci.org/ColorfullyMe/idol-client.svg)](https://travis-ci.org/ColorfullyMe/idol-client)
+# IDOLclient [![Build Status](https://travis-ci.org/ColorfullyMe/idol-client.svg)](https://travis-ci.org/ColorfullyMe/idol-client) [![NPM](https://nodei.co/npm/idol-client.png)](https://nodei.co/npm/idol-client/)
+
 Javascript client for working with the HP's IDOL OnDemand API from Node.js and the browser. Supports all endpoints with theirs parameters, can auto do polling of async tasks, fires events and more...
 
 Made and maintained by <a href="https://github.com/ColorfullyMe" target="_blank">@Colorfully</a> for free. It is open source as software should one day be!:)
@@ -125,7 +126,7 @@ Examples:
  ...
 ```
 ## Methods
-The library currently covers all available IDOL API [endpoints](https://www.idolondemand.com/developer/apis) with theirs parameters. To do so it uses the low level method `request(options)` described bellow. For convinience shortcuts to ease the pain when working with the lib are provided which are defined in the `./lib/core/shrotcuts.js`. They use the `request` method internally. There are currently **43** shortcuts:
+The library currently covers all available IDOL API [endpoints](https://www.idolondemand.com/developer/apis) with theirs parameters. To do so it uses the low level method `request(options)` described bellow. For convinience shortcuts to ease the pain when working with the lib are provided which are defined in the `./lib/core/shrotcuts.js`. They use the `request` method internally. There are currently **52** shortcuts:
 
 - recognizeSpeech(options)
 - connectorStatus(options)
@@ -134,42 +135,8 @@ The library currently covers all available IDOL API [endpoints](https://www.idol
 - retrieveConfig(options)
 - startConnector(options)
 - updateConnector(options)
-- expandContainer(options)
-- storeObject(options)
-- extractText(options)
-- viewDocument(options)
-- recognizeBarCodes(options)
-- detectFaces(options)
-- recognizeImages(options)
-- ocrDocument(options)
-- addToTextIndex(options)
-- createTextIndex(options)
-- deleteTextIndex(options)
-- deleteFromTextIndex(options)
-- indexStatus(options)
-- listIndexes(options)
-- listResources(options)
-- queryTextIndex(options)
-- findRelatedConcepts(options)
-- findSimilar(options)
-- getContent(options)
-- getParametricValues(options)
-- retrieveIndexFields(options)
-- categorizeDocument(options)
-- extractEntities(options)
-- expandTerms(options)
-- extractConcepts(options)
-- highlightText(options)
-- identifyLanguage(options)
-- analyzeSentiment(options)
-- tokenizeText(options)
-- addStore(options)
-- addUser(options)
-- authenticate(options)
-- deleteStore(options)
-- deleteUser(options)
-- listStores(options)
-- listUsers(options)
+- ...
+- and so on.
 
 Where `options` is a **Object** with:
 
