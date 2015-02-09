@@ -12,5 +12,5 @@ deploy:
   api_key:
     secure: BQfs3FuBBiEj/WmT9wEIWUjPlE7KdIHearNb+Ukh8FLZ6ntNCLKTNGz8fdM1eB/kdonSyvysYNKa48hYzN7hzeq0Yyl75YtWzNYb3VbxIhAeNeee65rOY+moI4M/8oSTwDFiK7We456vDfOzGFdm2IHEl0emCyI/bYl8mNgHPuk=
   on:
-    tags: true
+    branch: master
     repo: ColorfullyMe/idol-client
