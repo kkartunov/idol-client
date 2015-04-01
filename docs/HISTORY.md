@@ -1,3 +1,9 @@
+0.3.1 / 2015-04-01
+==================
+
+  * New available API endpoints added.
+  * JSHint config file.
+
 0.2.1 / 2015-02-09
 ==================
 

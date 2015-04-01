@@ -19,6 +19,22 @@ CLIENT.Q.longStackSupport = true;
  */
 describe('IDOLclient shortcuts', function () {
 
+    it('should not have duplicates', function () {
+        function hasDuplicates(array) {
+            var valuesSoFar = {};
+            for (var i = 0; i < array.length; ++i) {
+                var value = array[i];
+                if (Object.prototype.hasOwnProperty.call(valuesSoFar, value)) {
+                    return true;
+                }
+                valuesSoFar[value] = true;
+            }
+            return false;
+        }
+
+        assert.isFalse(hasDuplicates(shortcuts));
+    });
+
     // No need to repeat dummy tests for all methods
     // as they are created automatically and use same pattern
     // so instead just test a rendom method from the collection.
