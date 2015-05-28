@@ -1,6 +1,6 @@
 {
     "name": "idol-client",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "Javascript client for working with the HP's IDOL OnDemand API from Node.js and the browser.",
     "keywords": [
         "IDOL",

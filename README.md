@@ -1,6 +1,6 @@
 # IDOLclient [![Build Status](https://travis-ci.org/ColorfullyMe/idol-client.svg)](https://travis-ci.org/ColorfullyMe/idol-client) [![NPM](https://nodei.co/npm/idol-client.png)](https://nodei.co/npm/idol-client/)
 
-Javascript client for working with the HP's IDOL OnDemand API from Node.js and the browser. Supports all endpoints with theirs parameters, can auto do polling of async tasks, fires events and more...
+Javascript client for working with the HP's IDOL OnDemand API from Node.js/io.js and the browser. Supports all endpoints with theirs parameters, can auto do polling of async tasks, fires events and more...
 
 Made and maintained by <a href="https://github.com/ColorfullyMe" target="_blank">@Colorfully</a> for free. It is open source as software should one day be!:)
 
@@ -12,7 +12,7 @@ Available as npm package.
 
 Then in **Node.js:**
 
-- `var MyClient = require(idol-client)(options)`
+- `var MyClient = require('idol-client')(options)`
 
 Or in the **browser:**
 
@@ -40,6 +40,8 @@ Uses `gulp` as build tool. Tasks defined:
 
 <a href="//gittip.com/ColorfullyMe" target="_blank">Gittip</a>
 
+Fork. Make changes. Post pull requests...
+
 
 
 <!-- Start lib/browser-export.js -->
@@ -54,7 +56,7 @@ Uses `gulp` as build tool. Tasks defined:
 <!-- Start lib/idol-client.js -->
 
 # API
-This is the `IDOLclient` API reference.
+This is the `idol-client` API reference.
 
 ## Constructor
 

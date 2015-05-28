@@ -12,7 +12,7 @@
 <!-- Start lib/idol-client.js -->
 
 # API
-This is the `IDOLclient` API reference.
+This is the `idol-client` API reference.
 
 ## Constructor
 
